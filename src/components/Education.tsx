@@ -134,27 +134,6 @@ const Education = () => {
             </div>
           </div>
 
-          {/* Certifications */}
-          <div>
-            <h3 className="text-2xl font-semibold mb-6">Certificações</h3>
-            <Card className="cyber-glow">
-              <CardContent className="p-6">
-                <div className="grid md:grid-cols-3 gap-6">
-                  {certifications.map((cert, index) => (
-                    <div key={cert.name} className="text-center p-4 bg-muted/50 rounded-lg">
-                      <Award className="w-8 h-8 text-accent mx-auto mb-3" />
-                      <h4 className="font-semibold mb-1">{cert.name}</h4>
-                      <p className="text-sm text-muted-foreground mb-1">{cert.provider}</p>
-                      <div className="flex items-center justify-center text-xs text-muted-foreground">
-                        <Calendar className="w-3 h-3 mr-1" />
-                        {cert.year}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
-          </div>
 
         </div>
       </div>
