@@ -112,20 +112,6 @@ const Skills = () => {
             </CardContent>
           </Card>
 
-          {/* Learning Path */}
-          <div className="mt-12 text-center">
-            <h3 className="text-lg font-semibold mb-4">Próximos Objetivos</h3>
-            <div className="flex flex-wrap justify-center gap-3">
-              {['CISSP', 'CEH', 'OSCP', 'Cloud Security', 'Forensics'].map((goal) => (
-                <span 
-                  key={goal}
-                  className="px-4 py-2 border border-primary/30 rounded-full text-sm text-primary hover:bg-primary/10 transition-colors"
-                >
-                  {goal}
-                </span>
-              ))}
-            </div>
-          </div>
         </div>
       </div>
     </section>
