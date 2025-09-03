@@ -151,7 +151,7 @@ const Contact = () => {
               </Button>
               <Button 
                 variant="outline"
-                onClick={() => window.open('https://github.com/samueldiasrosa', '_blank')}
+                onClick={() => window.open('https://github.com/samueldias99', '_blank')}
               >
                 Ver Projetos no GitHub
               </Button>

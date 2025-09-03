@@ -28,9 +28,7 @@ const Footer = () => {
                 <a href="#skills" className="block text-muted-foreground hover:text-primary transition-colors">
                   Hard Skills
                 </a>
-                <a href="#projects" className="block text-muted-foreground hover:text-primary transition-colors">
-                  Projetos
-                </a>
+                
                 <a href="#contact" className="block text-muted-foreground hover:text-primary transition-colors">
                   Contato
                 </a>
@@ -68,7 +66,7 @@ const Footer = () => {
           <div className="border-t border-border pt-6">
             <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
               <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-                <span>© {currentYear} Samuel Dias da Rosa</span>
+                <span>© {currentYear} Samuel Dias</span>
               </div>
 
               <div className="flex items-center space-x-2 text-sm text-muted-foreground">

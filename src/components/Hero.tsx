@@ -43,8 +43,6 @@ const Hero = () => {
           {/* Main Title */}
           <h1 className="text-5xl md:text-7xl font-bold mb-4">
             <span className="gradient-text">Samuel Dias</span>
-            <br />
-            <span className="text-foreground">da Rosa</span>
           </h1>
 
           {/* Typewriter Subtitle */}
@@ -68,16 +66,16 @@ const Hero = () => {
             >
               Entre em Contato
             </Button>
-            <Button 
-              variant="outline" 
-              size="lg"
-              onClick={() => {
-                const element = document.getElementById('projects');
-                if (element) element.scrollIntoView({ behavior: 'smooth' });
-              }}
+            
+            {/* O código original foi alterado aqui para usar uma tag <a> para o link. */}
+            <a 
+              href="https://www.linkedin.com/in/samuel-dias48" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-12 px-6"
             >
-              Ver Projetos
-            </Button>
+              Linkedin
+            </a>
           </div>
 
           {/* Tech Stack */}
