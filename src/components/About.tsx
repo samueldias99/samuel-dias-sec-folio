@@ -1,0 +1,95 @@
+import { User, Target, Zap } from 'lucide-react';
+import { Card, CardContent } from '@/components/ui/card';
+
+const About = () => {
+  return (
+    <section id="about" className="py-20 bg-background/50">
+      <div className="container mx-auto px-4">
+        <div className="max-w-4xl mx-auto">
+          {/* Section Header */}
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              <span className="gradient-text">Sobre Mim</span>
+            </h2>
+            <p className="text-muted-foreground">
+              Conheça minha jornada na cibersegurança
+            </p>
+          </div>
+
+          {/* Main Description */}
+          <Card className="mb-8 cyber-glow">
+            <CardContent className="p-8">
+              <div className="flex items-start space-x-4">
+                <User className="w-8 h-8 text-primary mt-1 flex-shrink-0" />
+                <div>
+                  <h3 className="text-xl font-semibold mb-4">Meu Objetivo Profissional</h3>
+                  <p className="text-muted-foreground leading-relaxed text-lg">
+                    Estudante de cibersegurança e tecnologia da informação, em busca de uma 
+                    oportunidade de estágio para desenvolver habilidades práticas e contribuir 
+                    ativamente para a cultura de segurança da informação. Dedicado a aprender 
+                    e crescer na área, com foco em resolução de problemas e melhoria contínua.
+                  </p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
+          {/* Values Grid */}
+          <div className="grid md:grid-cols-2 gap-6">
+            <Card className="hover:cyber-glow transition-all duration-300">
+              <CardContent className="p-6">
+                <div className="flex items-start space-x-4">
+                  <Target className="w-6 h-6 text-cyber-green mt-1" />
+                  <div>
+                    <h4 className="font-semibold mb-2">Foco em Aprendizado</h4>
+                    <p className="text-muted-foreground text-sm">
+                      Constante busca por novos conhecimentos em segurança da informação, 
+                      sempre atualizado com as últimas tendências e ameaças do setor.
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:cyber-glow transition-all duration-300">
+              <CardContent className="p-6">
+                <div className="flex items-start space-x-4">
+                  <Zap className="w-6 h-6 text-cyber-blue mt-1" />
+                  <div>
+                    <h4 className="font-semibold mb-2">Prática & Inovação</h4>
+                    <p className="text-muted-foreground text-sm">
+                      Experiência hands-on com laboratórios práticos e ferramentas 
+                      de segurança, sempre buscando aplicar conhecimentos teóricos.
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* Stats */}
+          <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div>
+              <div className="text-2xl font-bold gradient-text">2+</div>
+              <div className="text-sm text-muted-foreground">Anos de Estudo</div>
+            </div>
+            <div>
+              <div className="text-2xl font-bold gradient-text">5+</div>
+              <div className="text-sm text-muted-foreground">Cursos Concluídos</div>
+            </div>
+            <div>
+              <div className="text-2xl font-bold gradient-text">10+</div>
+              <div className="text-sm text-muted-foreground">Ferramentas</div>
+            </div>
+            <div>
+              <div className="text-2xl font-bold gradient-text">100%</div>
+              <div className="text-sm text-muted-foreground">Dedicação</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default About;

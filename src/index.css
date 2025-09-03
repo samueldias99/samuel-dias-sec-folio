@@ -1,42 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
-
+/* Cybersecurity Portfolio Design System */
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-
-    --destructive: 0 84.2% 60.2%;
+    /* Dark cybersecurity theme */
+    --background: 222 84% 3%;
+    --foreground: 210 40% 98%;
+    
+    --card: 222 84% 4%;
+    --card-foreground: 210 40% 98%;
+    
+    --popover: 222 84% 4%;
+    --popover-foreground: 210 40% 98%;
+    
+    /* Cyber blue primary */
+    --primary: 194 95% 60%;
+    --primary-foreground: 222 84% 3%;
+    
+    --secondary: 222 47% 11%;
+    --secondary-foreground: 210 40% 98%;
+    
+    --muted: 215 28% 17%;
+    --muted-foreground: 217 10% 64%;
+    
+    /* Cyber green accent */
+    --accent: 142 76% 60%;
+    --accent-foreground: 222 84% 3%;
+    
+    --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
-
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
-
-    --radius: 0.5rem;
+    
+    --border: 215 28% 17%;
+    --input: 215 28% 17%;
+    --ring: 194 95% 60%;
+    
+    --radius: 0.75rem;
+    
+    /* Custom cyber colors */
+    --cyber-blue: 194 95% 60%;
+    --cyber-green: 142 76% 60%;
+    --cyber-purple: 260 95% 65%;
+    --cyber-orange: 25 95% 65%;
+    
+    /* Gradients */
+    --gradient-cyber: linear-gradient(135deg, hsl(var(--cyber-blue)), hsl(var(--cyber-green)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--background)), hsl(215 28% 17%));
+    --gradient-glow: radial-gradient(ellipse at center, hsl(var(--cyber-blue) / 0.1), transparent 70%);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    
+    /* Shadows */
+    --shadow-cyber: 0 10px 40px hsl(var(--cyber-blue) / 0.2);
+    --shadow-glow: 0 0 20px hsl(var(--cyber-green) / 0.3);
+    --shadow-card: 0 8px 32px hsl(0 0% 0% / 0.4);
 
     --sidebar-background: 0 0% 98%;
 
@@ -100,6 +122,69 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans antialiased;
+    background: var(--gradient-hero);
+    font-family: 'Inter', system-ui, sans-serif;
   }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    line-height: 1.2;
+  }
+  
+  .font-mono {
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+  }
+}
+
+@layer components {
+  .cyber-glow {
+    box-shadow: var(--shadow-cyber);
+  }
+  
+  .cyber-text-glow {
+    text-shadow: 0 0 10px hsl(var(--cyber-blue) / 0.5);
+  }
+  
+  .floating-animation {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  .pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+  
+  .gradient-text {
+    background: var(--gradient-cyber);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .scroll-smooth {
+    scroll-behavior: smooth;
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { 
+    box-shadow: 0 0 20px hsl(var(--cyber-blue) / 0.3);
+  }
+  50% { 
+    box-shadow: 0 0 30px hsl(var(--cyber-blue) / 0.6);
+  }
+}
+
+@keyframes typewriter {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
 }
