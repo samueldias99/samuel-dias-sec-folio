@@ -16,6 +16,36 @@ const About = () => {
             </p>
           </div>
 
+          {/* Journey Story */}
+          <Card className="mb-8 cyber-glow">
+            <CardContent className="p-8">
+              <div className="flex items-start space-x-4">
+                <Target className="w-8 h-8 text-cyber-blue mt-1 flex-shrink-0" />
+                <div>
+                  <h3 className="text-xl font-semibold mb-4">Minha Jornada</h3>
+                  <div className="space-y-4 text-muted-foreground leading-relaxed text-lg">
+                    <p>
+                      Minha jornada no mundo da tecnologia começou com uma curiosidade profunda sobre o Bitcoin. 
+                      Fascinado pela inovação por trás das moedas digitais e sua arquitetura descentralizada, 
+                      comecei a explorar o universo do desenvolvimento web para entender como a internet funciona.
+                    </p>
+                    <p>
+                      Foi nesse processo que descobri a área de cibersegurança. Rapidamente, me apaixonei por ela, 
+                      percebendo que era o campo perfeito para unir minha paixão por tecnologia com a necessidade 
+                      de proteção em um mundo cada vez mais digital.
+                    </p>
+                    <p>
+                      Acredito firmemente que, à medida que a adoção de moedas digitais como o Bitcoin cresce, 
+                      a segurança da informação se torna ainda mais crucial para proteger indivíduos e sistemas 
+                      contra ameaças e crimes digitais. Meu objetivo é contribuir ativamente para esse futuro, 
+                      usando minhas habilidades para construir um ambiente digital mais seguro e resiliente.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
           {/* Main Description */}
           <Card className="mb-8 cyber-glow">
             <CardContent className="p-8">
