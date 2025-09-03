@@ -1,73 +1,24 @@
-# Welcome to your Lovable project
+Samuel Dias - Portfólio de Cibersegurança
 
-## Project info
+Olá! Bem-vindo ao meu portfólio.
 
-**URL**: https://lovable.dev/projects/aa042abe-d092-4df3-9da5-dd301ebaf76c
+Como um estudante dedicado de cibersegurança, criei este espaço para consolidar e apresentar os projetos, habilidades e conhecimentos que estou adquirindo. O objetivo é demonstrar minha jornada de aprendizado e minha capacidade de aplicar a teoria na prática, resolvendo desafios e construindo soluções.
 
-## How can I edit this code?
+Aqui você encontrará:
 
-There are several ways of editing your application.
+* **Projetos Práticos:** Repositórios de projetos de automação com **Python**, scripts **Bash** para tarefas de rotina, e configurações de laboratórios de segurança.
+* **Write-ups de CTF:** Análises detalhadas de máquinas de plataformas como **TryHackMe** e **Hack The Box**, onde documento as vulnerabilidades encontradas, o processo de exploração e os comandos utilizados.
+* **Habilidades Técnicas:** Uma visão geral das minhas competências em áreas-chave da cibersegurança, incluindo:
+    * **Redes:** Protocolos (TCP/IP, HTTP, DNS), análise de tráfego (**Wireshark**).
+    * **Sistemas:** Comandos e scripting em **Linux** e administração de ambientes **Windows/AD**.
+    * **Segurança Web:** Análise de vulnerabilidades da **OWASP Top 10**.
+    * **Ferramentas:** Experiência com **Metasploit**, **Nmap**, entre outras.
+* **Blog:** Uma seção dedicada a artigos e insights sobre tópicos que estou estudando. É um espaço para aprofundar em conceitos específicos, compartilhar tutoriais e discutir as tendências da área.
 
-**Use Lovable**
+### O Que Me Motiva
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/aa042abe-d092-4df3-9da5-dd301ebaf76c) and start prompting.
+Sou movido pela curiosidade e pela busca constante por conhecimento. Acredito que a segurança cibernética é um campo de aprendizado contínuo, e este portfólio reflete meu compromisso em evoluir e aplicar minhas habilidades para resolver problemas complexos.
 
-Changes made via Lovable will be committed automatically to this repo.
+Sinta-se à vontade para explorar os projetos e o blog. Para mais informações, você pode entrar em contato comigo através dos links no meu perfil.
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/aa042abe-d092-4df3-9da5-dd301ebaf76c) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
