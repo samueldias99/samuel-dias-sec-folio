@@ -156,20 +156,6 @@ const Education = () => {
             </Card>
           </div>
 
-          {/* Learning Goals */}
-          <div className="mt-12 text-center">
-            <h3 className="text-lg font-semibold mb-4">Próximas Metas de Aprendizado</h3>
-            <div className="flex flex-wrap justify-center gap-3">
-              {['CISSP', 'CEH', 'OSCP', 'Cloud Security AWS', 'SANS GIAC'].map((goal) => (
-                <span 
-                  key={goal}
-                  className="px-4 py-2 border border-accent/30 rounded-full text-sm text-accent hover:bg-accent/10 transition-colors"
-                >
-                  {goal}
-                </span>
-              ))}
-            </div>
-          </div>
         </div>
       </div>
     </section>
