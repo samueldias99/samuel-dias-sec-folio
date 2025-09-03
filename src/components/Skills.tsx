@@ -48,11 +48,6 @@ const Skills = () => {
     },
   ];
 
-  const tools = [
-    'Metasploit', 'Burp Suite', 'John the Ripper', 'Hashcat', 
-    'Aircrack-ng', 'Netcat', 'Sqlmap', 'Gobuster'
-  ];
-
   return (
     <section id="skills" className="py-20">
       <div className="container mx-auto px-4">
@@ -92,25 +87,6 @@ const Skills = () => {
               </Card>
             ))}
           </div>
-
-          {/* Additional Tools */}
-          <Card className="cyber-glow">
-            <CardContent className="p-8">
-              <h3 className="text-xl font-semibold mb-6 text-center">
-                Ferramentas Adicionais
-              </h3>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                {tools.map((tool) => (
-                  <div 
-                    key={tool}
-                    className="bg-muted/50 rounded-lg p-3 text-center text-sm hover:bg-muted transition-colors"
-                  >
-                    <span className="font-mono">{tool}</span>
-                  </div>
-                ))}
-              </div>
-            </CardContent>
-          </Card>
 
         </div>
       </div>

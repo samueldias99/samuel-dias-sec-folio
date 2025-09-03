@@ -9,8 +9,8 @@ const Education = () => {
       institution: 'Uniasselvi',
       type: 'Graduação Tecnológica',
       status: 'Em Andamento',
-      period: '2023 - 2025',
-      description: 'Curso focado em análise de vulnerabilidades, gestão de riscos, implementação de políticas de segurança e resposta a incidentes.',
+      period: '2025 - 2027',
+      description: 'Iniciei a graduação em 31 de julho de 2025, com foco em redes de computadores, programação, segurança da informação, computação em nuvem, governança de TI e gestão de projetos. O curso também abrange ethical hacking, engenharia reversa, análise de malware e perícia digital, preparando para atuar na proteção de sistemas, prevenção de ataques cibernéticos e defesa de ambientes tecnológicos.',
       icon: GraduationCap,
       color: 'cyber-blue'
     }
@@ -33,7 +33,7 @@ const Education = () => {
       platform: 'Udemy',
       instructor: 'Especialista em Ethical Hacking',
       duration: '60 horas',
-      status: 'Concluído',
+      status: 'Em Andamento',
       description: 'Desenvolvimento de ferramentas de segurança, automação de testes de penetração e análise de vulnerabilidades usando Python.',
       skills: ['Python', 'Ethical Hacking', 'Automação', 'Web Scraping', 'Network Programming'],
       icon: BookOpen,

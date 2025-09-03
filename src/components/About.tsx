@@ -96,30 +96,11 @@ const About = () => {
               </CardContent>
             </Card>
           </div>
-
-          {/* Stats */}
-          <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div>
-              <div className="text-2xl font-bold gradient-text">2+</div>
-              <div className="text-sm text-muted-foreground">Anos de Estudo</div>
-            </div>
-            <div>
-              <div className="text-2xl font-bold gradient-text">5+</div>
-              <div className="text-sm text-muted-foreground">Cursos Concluídos</div>
-            </div>
-            <div>
-              <div className="text-2xl font-bold gradient-text">10+</div>
-              <div className="text-sm text-muted-foreground">Ferramentas</div>
-            </div>
-            <div>
-              <div className="text-2xl font-bold gradient-text">100%</div>
-              <div className="text-sm text-muted-foreground">Dedicação</div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
   );
+ 
 };
 
 export default About;

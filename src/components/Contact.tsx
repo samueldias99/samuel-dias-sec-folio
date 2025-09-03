@@ -26,18 +26,18 @@ const Contact = () => {
     },
     {
       title: 'GitHub',
-      value: 'github.com/samueldiasrosa',
+      value: 'github.com/samueldias99',
       icon: Github,
-      action: () => window.open('https://github.com/samueldiasrosa', '_blank'),
+      action: () => window.open('https://github.com/samueldias99', '_blank'),
       actionText: 'Visitar Perfil',
       description: 'Projetos e contribuições',
       color: 'cyber-green'
     },
     {
       title: 'LinkedIn',
-      value: 'linkedin.com/in/samueldiasrosa',
+      value: 'linkedin.com/in/samuel-dias48',
       icon: Linkedin,
-      action: () => window.open('https://linkedin.com/in/samueldiasrosa', '_blank'),
+      action: () => window.open('https://www.linkedin.com/in/samuel-dias48/', '_blank'),
       actionText: 'Conectar',
       description: 'Rede profissional',
       color: 'cyber-purple'

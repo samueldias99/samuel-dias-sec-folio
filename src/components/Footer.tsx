@@ -44,7 +44,7 @@ const Footer = () => {
                 <p className="text-muted-foreground">samueldias84@proton.me</p>
                 <div className="flex justify-center md:justify-end space-x-4 mt-3">
                   <a 
-                    href="https://github.com/samueldiasrosa" 
+                    href="https://github.com/samueldias99" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-primary transition-colors"
@@ -52,7 +52,7 @@ const Footer = () => {
                     GitHub
                   </a>
                   <a 
-                    href="https://linkedin.com/in/samueldiasrosa" 
+                    href="https://www.linkedin.com/in/samuel-dias48/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-primary transition-colors"
@@ -81,7 +81,7 @@ const Footer = () => {
               </div>
 
               <div className="text-sm text-muted-foreground">
-                <span>Segurança em primeiro lugar</span>
+                <span>Cybersecurity</span>
               </div>
             </div>
           </div>
