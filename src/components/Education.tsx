@@ -1,6 +1,7 @@
 import { GraduationCap, Award, BookOpen, Calendar } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import CertificateCard from './CertificateCard';
 
 const Education = () => {
   const education = [
@@ -26,7 +27,9 @@ const Education = () => {
       description: 'Fundamentos de redes TCP/IP, protocolos de segurança, análise de tráfego e configuração de firewalls.',
       skills: ['TCP/IP', 'Protocolos de Rede', 'Firewalls', 'VPN', 'Análise de Tráfego'],
       icon: BookOpen,
-      color: 'cyber-green'
+      color: 'cyber-green',
+      imageUrl: '/src/img/redesseginfo.jpg',
+      linkUrl: 'https://udemy-certificate.s3.amazonaws.com/image/UC-222a336b-ae67-4b56-bcd4-53ca08de3815.jpg?v=1754264487000'
     },
     {
       title: 'Python para Hackers',
@@ -37,14 +40,31 @@ const Education = () => {
       description: 'Desenvolvimento de ferramentas de segurança, automação de testes de penetração e análise de vulnerabilidades usando Python.',
       skills: ['Python', 'Ethical Hacking', 'Automação', 'Web Scraping', 'Network Programming'],
       icon: BookOpen,
-      color: 'cyber-purple'
+      color: 'cyber-purple',
+      imageUrl: '/src/img/pythonparahackers.png',
+      linkUrl: 'https://www.udemy.com/course/python-para-hackers'
     }
   ];
 
   const certifications = [
-    { name: 'Python Essentials', provider: 'Cisco', year: '2024' },
-    { name: 'Network Security', provider: 'Coursera', year: '2024' },
-    { name: 'Linux Fundamentals', provider: 'Linux Professional Institute', year: '2023' }
+    {
+      title: 'Bootcamp Santander Cibersegurança 2025',
+      institution: 'DIO',
+      hours: 40,
+      date: '2025',
+      description: 'Programa intensivo de cibersegurança oferecido pelo Santander em parceria com a DIO, focado em hacking ético, testes de invasão e engenharia social para desenvolver habilidades estratégicas e fortalecer a segurança de sistemas.',
+      imageUrl: '/src/img/certificadocyber2025.png',
+      linkUrl: 'https://assets.dio.me/Lj99MdC_nSwWHGhItCgOBeQyzs3g8Ukyk4yag5HwSPs/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9VUUFFU0RRQS5qcGc'
+    },
+    {
+      title: 'Formação GitHub Certification',
+      institution: 'DIO',
+      hours: 8,
+      date: '2025',
+      description: 'Formação focada no domínio do ecossistema Git e GitHub, capacitando profissionais em controle de versão, colaboração e administração de projetos. Habilidades desenvolvidas incluem gerenciamento de repositórios, workflows colaborativos, code reviews e práticas DevOps modernas.',
+      imageUrl: '/src/img/certificadogithub.png',
+      linkUrl: 'https://assets.dio.me/AoogI8xWdR2Tx1uplWU6wDlxexbeGY0fsnAysgniPvU/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci80UkxSQzlIUC5qcGc'
+    }
   ];
 
   return (
@@ -95,45 +115,38 @@ const Education = () => {
             <h3 className="text-2xl font-semibold mb-6">Cursos Especializados</h3>
             <div className="space-y-6">
               {courses.map((course, index) => (
-                <Card key={course.title} className="hover:cyber-glow transition-all duration-300">
-                  <CardHeader>
-                    <div className="flex items-start justify-between">
-                      <div className="flex items-center space-x-3">
-                        <course.icon className={`w-6 h-6 text-${course.color}`} />
-                        <div>
-                          <CardTitle className="text-lg">{course.title}</CardTitle>
-                          <p className="text-sm text-muted-foreground">{course.platform}</p>
-                        </div>
-                      </div>
-                      <div className="text-right">
-                        <Badge>{course.status}</Badge>
-                        <p className="text-sm text-muted-foreground mt-1">{course.duration}</p>
-                      </div>
-                    </div>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-muted-foreground mb-4 leading-relaxed">
-                      {course.description}
-                    </p>
-                    <div>
-                      <h4 className="font-semibold mb-2">Competências Desenvolvidas:</h4>
-                      <div className="flex flex-wrap gap-2">
-                        {course.skills.map((skill) => (
-                          <span 
-                            key={skill}
-                            className="px-3 py-1 bg-muted rounded-full text-sm"
-                          >
-                            {skill}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
+                <CertificateCard
+                  key={course.title}
+                  title={course.title}
+                  institution={course.platform}
+                  hours={parseInt(course.duration.split(' ')[0])}
+                  date={course.status}
+                  description={course.description}
+                  imageUrl={course.imageUrl}
+                  linkUrl={course.linkUrl}
+                />
               ))}
             </div>
           </div>
 
+          {/* Certifications */}
+          <div className="mb-12">
+            <h3 className="text-2xl font-semibold mb-6">Certificações</h3>
+            <div className="space-y-6">
+              {certifications.map((cert, index) => (
+                <CertificateCard
+                  key={cert.title}
+                  title={cert.title}
+                  institution={cert.institution}
+                  hours={cert.hours}
+                  date={cert.date}
+                  description={cert.description}
+                  imageUrl={cert.imageUrl}
+                  linkUrl={cert.linkUrl}
+                />
+              ))}
+            </div>
+          </div>
 
         </div>
       </div>
