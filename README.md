@@ -1,24 +1,53 @@
-Samuel Dias - Portfólio de Cibersegurança
+# Samuel Dias - Portfólio de Cibersegurança 👋
 
-Olá! Bem-vindo ao meu portfólio.
+Olá! Sou um estudante de cibersegurança apaixonado por aplicar teoria na prática. Este repositório consolida meus projetos, write-ups de CTF e scripts, documentando minha jornada de aprendizado contínuo.
 
-Como um estudante dedicado de cibersegurança, criei este espaço para consolidar e apresentar os projetos, habilidades e conhecimentos que estou adquirindo. O objetivo é demonstrar minha jornada de aprendizado e minha capacidade de aplicar a teoria na prática, resolvendo desafios e construindo soluções.
+### 🔗 Conecte-se Comigo
 
-Aqui você encontrará:
+[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/samuel-dias48/)
+[<img src="https://img.shields.io/badge/TryHackMe-informational?style=for-the-badge&logo=tryhackme&logoColor=white" />](https://tryhackme.com/p/samuel.dias.rosa99)
+[<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />](https://github.com/samueldias99)
+[<img src="https://img.shields.io/badge/Blog/Site-black?style=for-the-badge&logo=google-chrome&logoColor=white" />](https://samdias.net/)
 
-* **Projetos Práticos:** Repositórios de projetos de automação com **Python**, scripts **Bash** para tarefas de rotina, e configurações de laboratórios de segurança.
-* **Write-ups de CTF:** Análises detalhadas de máquinas de plataformas como **TryHackMe** e **Hack The Box**, onde documento as vulnerabilidades encontradas, o processo de exploração e os comandos utilizados.
-* **Habilidades Técnicas:** Uma visão geral das minhas competências em áreas-chave da cibersegurança, incluindo:
-    * **Redes:** Protocolos (TCP/IP, HTTP, DNS), análise de tráfego (**Wireshark**).
-    * **Sistemas:** Comandos e scripting em **Linux** e administração de ambientes **Windows/AD**.
-    * **Segurança Web:** Análise de vulnerabilidades da **OWASP Top 10**.
-    * **Ferramentas:** Experiência com **Metasploit**, **Nmap**, entre outras.
-* **Blog:** Uma seção dedicada a artigos e insights sobre tópicos que estou estudando. É um espaço para aprofundar em conceitos específicos, compartilhar tutoriais e discutir as tendências da área.
-
-### O Que Me Motiva
-
-Sou movido pela curiosidade e pela busca constante por conhecimento. Acredito que a segurança cibernética é um campo de aprendizado contínuo, e este portfólio reflete meu compromisso em evoluir e aplicar minhas habilidades para resolver problemas complexos.
-
-Sinta-se à vontade para explorar os projetos e o blog. Para mais informações, você pode entrar em contato comigo através dos links no meu perfil.
 
 ---
+
+
+## 🛠️ Habilidades e Ferramentas (Toolbox)
+
+Estas são as principais tecnologias e ferramentas com as quais estou trabalhando:
+
+**Linguagens e Scripting:**
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" />
+</p>
+
+**Sistemas e Redes:**
+<p>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+  <img src="https://img.shields.io/badge/TCP/IP-000?style=for-the-badge" /> 
+</p>
+
+**Ferramentas de Segurança:**
+<p>
+  <img src="https://img.shields.io/badge/Nmap-grey?style=for-the-badge&logo=nmap&logoColor=white" />
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
+  <img src="https://img.shields.io/badge/Metasploit-black?style=for-the-badge" /> 
+  <img src="https://img.shields.io/badge/Burp_Suite-FF6600?style=for-the-badge&logo=burpsuite&logoColor=white" /> 
+</p>
+
+**Conceitos de Segurança:**
+<p>
+  <img src="https://img.shields.io/badge/OWASP_Top_10-black?style=for-the-badge&logo=owasp&logoColor=white" />
+  <img src="https://img.shields.io/badge/Criptografia-grey?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Análise_de_Malware-red?style=for-the-badge" />
+</p>
+
+---
+
+## 💡 Minha Motivação
+
+Sou movido pela curiosidade e pela busca constante por conhecimento. A cibersegurança é um campo de aprendizado infinito, e este portfólio reflete meu compromisso em evoluir e aplicar minhas habilidades para resolver problemas complexos.
