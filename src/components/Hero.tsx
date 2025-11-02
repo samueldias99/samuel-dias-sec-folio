@@ -82,7 +82,7 @@ const Hero = () => {
           <div className="mt-12">
             <p className="text-sm text-muted-foreground mb-4">Tecnologias em foco:</p>
             <div className="flex flex-wrap justify-center gap-4 text-sm">
-              {['Linux', 'Python', 'Redes', 'Git', 'Nmap', 'Wireshark'].map((tech) => (
+              {['Linux', 'Python', 'Redes', 'Git', 'Nmap', 'Wireshark', 'Burp Suite', 'Metasploit'].map((tech) => (
                 <span 
                   key={tech} 
                   className="px-3 py-1 bg-card border border-border rounded-full text-muted-foreground hover:text-primary hover:border-primary transition-colors"
