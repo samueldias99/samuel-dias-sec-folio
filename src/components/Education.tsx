@@ -22,7 +22,7 @@ const Education = () => {
       title: 'Redes para Segurança da Informação',
       platform: 'Udemy',
       instructor: 'Instrutor Especializado',
-      duration: '40 horas',
+  duration: '31 horas',
       status: 'Concluído',
       description: 'Fundamentos de redes TCP/IP, protocolos de segurança, análise de tráfego e configuração de firewalls.',
       skills: ['TCP/IP', 'Protocolos de Rede', 'Firewalls', 'VPN', 'Análise de Tráfego'],
@@ -59,7 +59,7 @@ const Education = () => {
     {
       title: 'Formação GitHub Certification',
       institution: 'DIO',
-      hours: 8,
+  hours: 10,
       date: '2025',
       description: 'Formação focada no domínio do ecossistema Git e GitHub, capacitando profissionais em controle de versão, colaboração e administração de projetos. Habilidades desenvolvidas incluem gerenciamento de repositórios, workflows colaborativos, code reviews e práticas DevOps modernas.',
   imageUrl: '/certificados/certificadogithub.png',
