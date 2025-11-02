@@ -28,8 +28,8 @@ const Education = () => {
       skills: ['TCP/IP', 'Protocolos de Rede', 'Firewalls', 'VPN', 'Análise de Tráfego'],
       icon: BookOpen,
       color: 'cyber-green',
-      imageUrl: '/certificados/redesseginfo.jpg',
-      linkUrl: '/certificados/redesseginfo.jpg'
+  imageUrl: '/certificados/redesseginfo.jpg',
+  linkUrl: 'https://udemy-certificate.s3.amazonaws.com/image/UC-222a336b-ae67-4b56-bcd4-53ca08de3815.jpg?v=1754264487000'
     },
     {
       title: 'Python para Hackers',
@@ -42,7 +42,7 @@ const Education = () => {
       icon: BookOpen,
       color: 'cyber-purple',
   imageUrl: '/certificados/pythonparahackers.png',
-  linkUrl: '/certificados/pythonparahackers.png'
+  linkUrl: 'https://www.udemy.com/course/python-para-hackers'
     }
   ];
 
@@ -54,7 +54,7 @@ const Education = () => {
       date: '2025',
       description: 'Programa intensivo de cibersegurança oferecido pelo Santander em parceria com a DIO, focado em hacking ético, testes de invasão e engenharia social para desenvolver habilidades estratégicas e fortalecer a segurança de sistemas.',
   imageUrl: '/certificados/certificadocyber2025.png',
-  linkUrl: '/certificados/certificadocyber2025.png'
+  linkUrl: 'https://assets.dio.me/Lj99MdC_nSwWHGhItCgOBeQyzs3g8Ukyk4yag5HwSPs/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9VUUFFU0RRQS5qcGc'
     },
     {
       title: 'Formação GitHub Certification',
@@ -63,7 +63,7 @@ const Education = () => {
       date: '2025',
       description: 'Formação focada no domínio do ecossistema Git e GitHub, capacitando profissionais em controle de versão, colaboração e administração de projetos. Habilidades desenvolvidas incluem gerenciamento de repositórios, workflows colaborativos, code reviews e práticas DevOps modernas.',
   imageUrl: '/certificados/certificadogithub.png',
-  linkUrl: '/certificados/certificadogithub.png'
+  linkUrl: 'https://assets.dio.me/AoogI8xWdR2Tx1uplWU6wDlxexbeGY0fsnAysgniPvU/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci80UkxSQzlIUC5qcGc'
     }
   ];
 
