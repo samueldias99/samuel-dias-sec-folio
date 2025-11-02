@@ -1,7 +1,7 @@
-# Samuel Dias - Portfólio de Cibersegurança 👋
+# Samuel Dias - Portfólio de Cibersegurança 
 
-Olá! Sou um estudante de cibersegurança apaixonado por aplicar teoria na prática. Este repositório consolida meus projetos, write-ups de CTF e scripts, documentando minha jornada de aprendizado contínuo.
-
+Olá! Sou um estudante de cibersegurança apaixonado por aplicar teoria na prática. Este repositório consolida meus portifolio contendo projetos, certificaçoes,cursos write-ups de CTF e scripts, documentando minha jornada de aprendizado contínuo.
+*Nota sobre o Site:** O portfólio web foi desenvolvido para ser rápido e eficiente, utilizando recursos de **Inteligência Artificial (IA)** no seu desenvolvimento inicial e implementado com **deploy contínuo via Netlify**
 ### 🔗 Conecte-se Comigo
 
 [<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/samuel-dias48/)
@@ -48,6 +48,3 @@ Estas são as principais tecnologias e ferramentas com as quais estou trabalhand
 
 ---
 
-## 💡 Minha Motivação
-
-Sou movido pela curiosidade e pela busca constante por conhecimento. A cibersegurança é um campo de aprendizado infinito, e este portfólio reflete meu compromisso em evoluir e aplicar minhas habilidades para resolver problemas complexos.
