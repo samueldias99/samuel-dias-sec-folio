@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Award } from 'lucide-react';
+import { Award, X } from 'lucide-react';
 
 interface CertificateProps {
   title: string;
@@ -22,15 +22,18 @@ const CertificateCard: React.FC<CertificateProps> = ({
   imageUrl,
   linkUrl,
 }) => {
+  const [showModal, setShowModal] = useState(false);
   return (
-    <a href={linkUrl} target="_blank" rel="noopener noreferrer" className="block">
-      <Card className="cyber-glow hover:shadow-lg transition-all duration-300 group bg-card text-card-foreground border-border rounded-xl shadow-md p-6 md:p-8">
+    <>
+      <Card 
+        className="cyber-glow hover:shadow-lg transition-all duration-300 group bg-card text-card-foreground border-border rounded-xl shadow-md p-6 md:p-8 cursor-pointer"
+        onClick={() => setShowModal(true)}>
         <CardContent className="flex flex-col md:flex-row items-start gap-6">
-          <div className="flex-shrink-0">
+          <div className="w-[300px] h-[200px] flex-shrink-0 bg-black/5 rounded-lg">
             <img
               src={imageUrl}
-              alt={`${title} badge`}
-              className="w-40 h-40 rounded-lg object-cover border border-border group-hover:border-cyan-500 transition-colors"
+              alt={`Certificado ${title}`}
+              className="w-full h-full object-contain rounded-lg border border-border group-hover:border-cyan-500 transition-colors"
             />
           </div>
           <div className="flex-1 min-w-0">
@@ -60,7 +63,31 @@ const CertificateCard: React.FC<CertificateProps> = ({
           </div>
         </CardContent>
       </Card>
-    </a>
+
+      {/* Modal */}
+      {showModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80" onClick={() => setShowModal(false)}>
+          <div className="relative max-w-7xl w-full">
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                setShowModal(false);
+              }}
+              className="absolute top-4 right-4 p-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
+            >
+              <X className="w-6 h-6 text-white" />
+            </button>
+            <div className="w-full h-[90vh] bg-black/20 rounded-lg flex items-center justify-center">
+              <img
+                src={imageUrl}
+                alt={`Certificado ${title}`}
+                className="w-full h-full object-contain rounded-lg p-4"
+              />
+            </div>
+          </div>
+        </div>
+      )}
+    </>
   );
 };
 
