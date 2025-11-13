@@ -64,6 +64,15 @@ const Education = () => {
       description: 'Formação focada no domínio do ecossistema Git e GitHub, capacitando profissionais em controle de versão, colaboração e administração de projetos. Habilidades desenvolvidas incluem gerenciamento de repositórios, workflows colaborativos, code reviews e práticas DevOps modernas.',
   imageUrl: '/certificados/certificadogithub.png',
   linkUrl: 'https://assets.dio.me/AoogI8xWdR2Tx1uplWU6wDlxexbeGY0fsnAysgniPvU/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci80UkxSQzlIUC5qcGc'
+    },
+    {
+      title: 'Certificação Linux',
+      institution: 'DIO',
+      hours: 23,
+      date: '2025',
+      description: 'Domínio do sistema operacional mais utilizado em servidores e infraestrutura de segurança. Proficiência em comandos essenciais, gerenciamento de usuários e permissões de arquivo. Esta base é fundamental para a administração segura de sistemas, hardening e o uso de ferramentas avançadas de cibersegurança em ambientes CLI (Command Line Interface). Essencial para qualquer função em DevOps ou Hacking Ético.',
+      imageUrl: '/certificados/certificadolinux.png',
+      linkUrl: 'https://assets.dio.me/4e1gyFLYp3ZpHgSVSIzi2VHajogXDWEGFuJeYUuUfkg/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci84U0dPWVNXQi5qcGc'
     }
   ];
 
